@@ -9,8 +9,8 @@ const App = ()=>{
 
 
     return <div>
-        <ImageData    setData={setData}/>
-        <ImageDisplay data={data}/>
+        <ImageData    setData={setData} data={data} />
+        <ImageDisplay data={data} />
     </div>
 }
 
